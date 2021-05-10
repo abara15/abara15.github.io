@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+body {
+    background: #16161d;
+    color: white;
+    width: 100vw;
+    height: 100%;
+}
+
+.banner {
+    position: fixed; /* Temporary */
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/banner.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* ------------------ Overlay ----------------------- */
+
+.overlay {
+    position: relative;
+    z-index: 1;
+    padding: 40vh;
+    display: block;
+    justify-content: center;
+}
+
+.overlay h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(1.2em + 3vw);
+    line-height: 1.1;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.overlay p {
+    font-family: 'Lato', sans-serif;
+    font-size: calc(0.5em + 2.5vw);
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+}
+
+.overlay .social-elements {
+    text-align: center;
+}
+
+.overlay .social-elements a i {
+    padding: 20px;
+    color: white;
+}
+
+.overlay .social-elements a i:hover {
+    color: rgb(165, 165, 165);
+}
