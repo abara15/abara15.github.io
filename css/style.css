@@ -33,3 +33,22 @@ body {
     background: #16161d;
     text-align: center;
 }
+
+.footer .social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .social-buttons .social-button {
+    border: 4px solid #30303b;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 40px;
+}
+
+.footer .social-buttons .social-button:hover {
+    border: 4px solid white;
+    background-color: white;
+    color: #16161d;
+}
