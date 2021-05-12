@@ -55,6 +55,12 @@ body {
     width: 40%;
 }
 
+.hero-outer-container .hero-outer-item .hero-inner-container .hero-inner-item img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
 #heroTitle {
     font-family: 'Source Code Pro', monospace;
     font-size: 3.8rem !important;
@@ -65,6 +71,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     font-size: 1.7rem;
+    line-height: 200%;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -87,12 +95,30 @@ body {
     border-radius: 20px;
 }
 
+.highlight {
+    border-radius: 10px;
+    padding: 5px;
+    /* box-shadow: 0 10px 0 0 rgba(255,56,96,0),inset 0 -.125em rgba(255,56,96,.2); */
+}
+
 .red-highlight {
     background-color: rgba(255,56,96,0.2);
     color: #d1002a;
-    border-radius: 15px;
-    padding: 5px;
-    /* box-shadow: 0 10px 0 0 rgba(255,56,96,0),inset 0 -.125em rgba(255,56,96,.2); */
+}
+
+.yellow-highlight {
+    background-color: rgba(255, 252, 56, 0.2);
+    color: #c3d100;
+}
+
+.green-highlight {
+    background-color: rgba(63, 255, 56, 0.2);
+    color: #23d100;
+}
+
+.blue-highlight {
+    background-color: rgba(56, 165, 255, 0.2);
+    color: #007dd1;
 }
 
 /* ----------------------- Scroll Button ----------------------- */
