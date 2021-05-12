@@ -132,8 +132,7 @@
                     <div class="screen-body">
                         <div class="screen-body-item left">
                             <div class="app-title">
-                                <span>CONTACT</span>
-                                <span>ME</span>
+                                <span>CONTACT ME</span>
                             </div>
                             <div class="app-contact">CONTACT INFO : +61 449 261 026</div>
                         </div>
@@ -146,14 +145,11 @@
                                     <input class="app-form-control" type="email" placeholder="EMAIL">
                                 </div>
                                 <div class="app-form-group">
-                                    <input class="app-form-control" type="text" placeholder="CONTACT NO">
+                                    <input class="app-form-control" type="text" placeholder="PHONE NO. #">
                                 </div>
                                 <div class="app-form-group">
-                                    <input class="app-form-control message" type="text" placeholder="MESSAGE">
+                                    <textarea class="app-form-control message" type="text" placeholder="MESSAGE" rows="5"></textarea>
                                 </div>
-                                <!-- <div class="app-form-group message">
-                                    <input class="app-form-control" placeholder="MESSAGE">
-                                </div> -->
                                 <div class="app-form-group buttons">
                                     <button class="app-form-button">SUBMIT</button>
                                 </div>
@@ -189,7 +185,7 @@
                 </a>
             </div>
             <p>Copyright <i class="far fa-copyright"></i> 2021 Anthony Barakat</p>
-            <a href="https://bulma.io">
+            <a href="https://bulma.io" target="_blank">
                 <img
                   src="https://bulma.io/images/made-with-bulma.png"
                   alt="Made with Bulma"
@@ -197,6 +193,15 @@
                   height="24">
             </a>
         </section>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+        
+        <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-analytics.js"></script>
+
+        <!-- My Firebase Script -->
+        <script src="/js/firebase-contact.js"></script>
 
     </body>
 </html>
