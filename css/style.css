@@ -61,6 +61,11 @@ body {
     padding: 10px;
     width: 450px;
     height: 450px;
+    transition: 0.4s;
+}
+
+.hero-outer-container .hero-outer-item .hero-inner-container .hero-inner-item img:hover {
+    border: 1px solid green;
 }
 
 #heroTitle {
@@ -184,6 +189,7 @@ body {
 #projectsSection {
     height: 1500px;
     background: #16161d;
+    /* background: #111; */
 }
 
 /* ----------------------- Contact Section ----------------------- */
@@ -201,7 +207,6 @@ body {
     position: relative;
     background: #292e39;
     border-radius: 10px;
-    font-family: 'Source Code Pro', monospace;
     width: 70%;
 }
   
@@ -275,6 +280,7 @@ body {
     flex-direction: column;
     position: relative;
     color: #ea1d6f;
+    font-family: 'Source Code Pro', monospace;
     font-size: 26px;
 }
   
@@ -291,6 +297,7 @@ body {
   
 .app-contact {
     margin-top: auto;
+    font-family: 'Source Code Pro', monospace;
     font-size: 12px;
     color: #888;
 }
@@ -315,10 +322,11 @@ body {
     border: none;
     border: 1px solid #666;
     color: #ddd;
+    font-family: 'Source Code Pro', monospace;
     font-size: 14px;
     text-transform: uppercase;
     outline: none;
-    transition: border-color .2s;
+    transition: border-color .4s;
 }
   
 .app-form-control::placeholder {
@@ -333,6 +341,7 @@ body {
     background: none;
     border: 1px solid;
     color: #ea1d6f;
+    font-family: 'Source Code Pro', monospace;
     font-size: 14px;
     padding: 10px;
     cursor: pointer;
@@ -396,6 +405,7 @@ body {
     padding: 15px;
     margin: 20px;
     border-radius: 600px;
+    transition: 0.4s;
 }
 
 .footer .social-buttons .social-button:hover {
