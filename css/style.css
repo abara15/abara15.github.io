@@ -8,7 +8,6 @@ html {
 body {
     color: white;
     width: 100vw;
-    height: 5000px;
 }
 
 /* START: Navigation for desktop */
@@ -18,9 +17,10 @@ header {
     left: 0;
     width: 100%;
     z-index: 10000;
-    background: none;
-    padding: 60px 0;
+    background: #0B0C10;
+    padding: 40px 0;
     transition: 0.5s;
+    border-bottom: 1px solid greenyellow;
 }
 
 .primary-nav ul li {
@@ -30,7 +30,6 @@ header {
 .primary-nav ul li a {
     display: block;
     text-decoration: none;
-    letter-spacing: 3px;
     font-family: 'Space Mono', 'monospace';
     font-size: 1.1em;
     color: white;
@@ -41,15 +40,13 @@ header {
 
 .primary-nav ul li a:hover {
     color: #66FCF1;
-    /* background: #FFC4EB; */
-    box-shadow: 0px 4px 0px 0px #66FCF1;
+    /* box-shadow: 0px 4px 0px 0px #66FCF1; */
 }
 
 @media only screen and (min-width: 600px) {
     .primary-nav ul {
         list-style: none;
         display: flex;
-        flex-direction: column;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
@@ -81,6 +78,9 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+    /* header {
+        display: none;
+    } */
     .secondary-nav ul {
         flex-direction: row;
         justify-content: space-around;
@@ -93,9 +93,57 @@ header {
 /* END: Navigation for mobile */
 
 #main {
+    margin-top: 150px;
+    border: 1px solid red;
     height: 100vh;
 }
 #projects {
     height: 500px;
-    background: red;
+    background: white;
+}
+#about {
+    height: 500px;
+    background: green;
+}
+#contact {
+    height: 500px;
+    background: yellow;
+}
+
+#footer {
+    width: 100%;
+    background: #0B0C10;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container .footer-item {
+    padding: 15px;
+}
+
+.footer-container .footer-item ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container .footer-item ul li {
+    display: block;
+}
+.footer-container .footer-item ul li a {
+    padding: 20px;
+    color: white;
+}
+
+.footer-container .footer-item ul li a:hover {
+    border: 1px solid #66FCF1;
+    color: #66FCF1;
 }
