@@ -107,9 +107,10 @@ header {
 }
 #contact {
     height: 500px;
-    background: yellow;
+    background: #0B0C10;
 }
 
+/* START: Footer */
 #footer {
     width: 100%;
     background: #0B0C10;
@@ -147,3 +148,4 @@ header {
     border: 1px solid #66FCF1;
     color: #66FCF1;
 }
+/* END: Footer */
