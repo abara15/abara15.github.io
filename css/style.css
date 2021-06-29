@@ -27,7 +27,25 @@ header {
     display: none;
 }
 
-@media only screen and (min-width: 545px) {
+.primary-nav ul li a {
+    display: block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: 'Space Mono', 'monospace';
+    font-size: 1.1em;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    transition: background .25s, box-shadow .15s;
+}
+
+.primary-nav ul li a:hover {
+    color: #66FCF1;
+    /* background: #FFC4EB; */
+    box-shadow: 0px 4px 0px 0px #66FCF1;
+}
+
+@media only screen and (min-width: 600px) {
     .primary-nav ul {
         list-style: none;
         display: flex;
@@ -38,6 +56,9 @@ header {
     }
     .primary-nav ul li {
         display: block;
+    }
+    .primary-nav ul li a {
+        padding: 20px;
     }
 }
 /* END: Navigation for desktop */
@@ -59,7 +80,7 @@ header {
     flex-direction: column;
 }
 
-@media only screen and (max-width: 545px) {
+@media only screen and (max-width: 600px) {
     .secondary-nav ul {
         flex-direction: row;
         justify-content: space-around;
@@ -70,3 +91,11 @@ header {
     }
 }
 /* END: Navigation for mobile */
+
+#main {
+    height: 100vh;
+}
+#projects {
+    height: 500px;
+    background: red;
+}
