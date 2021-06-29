@@ -1,67 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono');
 
 html {
-    background: #16161d;
+    background: #0B0C10;
     scroll-behavior: smooth;
 }
 
 body {
-    background: #16161d;
     color: white;
     width: 100vw;
-    height: 100%;
+    height: 5000px;
 }
 
-.banner {
-    position: fixed; /* Temporary */
-    width: 100vw;
-    height: 100vh;
-    background-image: url("/img/banner.jpg");
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+/* START: Navigation for desktop */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background: none;
+    padding: 60px 0;
+    transition: 0.5s;
 }
 
-/* ------------------ Overlay ----------------------- */
-
-.overlay {
-    position: relative;
-    z-index: 1;
-    padding: 40vh;
-    display: block;
-    justify-content: center;
+.primary-nav ul li {
+    display: none;
 }
 
-.overlay h3 {
-    font-family: 'Poppins', sans-serif;
-    font-size: calc(1.2em + 3vw);
-    line-height: 1.1;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 25px;
+@media only screen and (min-width: 545px) {
+    .primary-nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .primary-nav ul li {
+        display: block;
+    }
+}
+/* END: Navigation for desktop */
+
+/* START: Navigation for mobile */
+.mobile-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background: white;
+    border-top: 4px solid red;
 }
 
-.overlay p {
-    font-family: 'Lato', sans-serif;
-    font-size: calc(0.5em + 2.5vw);
-    line-height: 1.2;
-    color: #fff;
-    text-align: center;
+.secondary-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
-.overlay .social-elements {
-    text-align: center;
+@media only screen and (max-width: 545px) {
+    .secondary-nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .secondary-nav ul li {
+        display: block;
+    }
 }
-
-.overlay .social-elements a i {
-    padding: 20px;
-    color: white;
-}
-
-.overlay .social-elements a i:hover {
-    color: rgb(165, 165, 165);
-}
+/* END: Navigation for mobile */
