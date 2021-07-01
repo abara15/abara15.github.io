@@ -13,65 +13,160 @@
 
         <!-- Scripts -->
         <script src="https://kit.fontawesome.com/5209143f00.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
     </head>
     <body>
 
+
+
+
+
+
+
+
+
+
+
+
         <!-- Header / Navigation Bar -->
-        <header id="header">
-            <nav class="primary-nav">
-                <ul>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li class="logo"><a href="#">Logo</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="https://www.github.com/abara15" target="_blank"><i class="fab fa-github"></i></a></li>
+        <header class="header" id="header">
+            <nav class="navigation flex flex-row flex-center">
+                <div class="logo">
+                    LOGO
+                </div>
+                <ul class="flex flex-row flex-center">
+                    <li>
+                        <!-- <a href="#projects">Projects</a> -->
+                        <!-- <a href="#projects"><i class="fas fa-briefcase"></i></a> -->
+                        <a href="#projects"><i data-feather="code"></i></a>
+                    </li>
+                    <li>
+                        <!-- <a href="#about">About</a> -->
+                        <!-- <a href="#about"><i class="fas fa-user"></i></a> -->
+                        <a href="#about"><i data-feather="user"></i></a>
+                    </li>
+                    <li>
+                        <!-- <a href="#contact">Contact</a> -->
+                        <!-- <a href="#contact"><i class="fas fa-envelope"></i></a> -->
+                        <a href="#contact"><i data-feather="send"></i></a>
+                    </li>
+                    <li>
+                        <!-- <a href="https://www.github.com/abara15" target="_blank"><i class="fab fa-github"></i></a> -->
+                        <a href="https://www.github.com/abara15" target="_blank"><i data-feather="github"></i></a>
+                    </li>
                 </ul>
             </nav>
+
+            <div class="bottom-navigation flex flex-row flex-center">
+                <ul class="flex flex-row space-evenly">
+                    <li>
+                        <!-- <a href="#projects">Projects</a> -->
+                        <!-- <a href="#projects"><i class="fas fa-briefcase"></i></a> -->
+                        <a href="#projects"><i data-feather="code"></i></a>
+                    </li>
+                    <li>
+                        <!-- <a href="#about">About</a> -->
+                        <!-- <a href="#about"><i class="fas fa-user"></i></a> -->
+                        <a href="#about"><i data-feather="user"></i></a>
+                    </li>
+                    <li>
+                        <!-- <a href="#contact">Contact</a> -->
+                        <!-- <a href="#contact"><i class="fas fa-envelope"></i></a> -->
+                        <a href="#contact"><i data-feather="send"></i></a>
+                    </li>
+                    <li>
+                        <!-- <a href="https://www.github.com/abara15" target="_blank"><i class="fab fa-github"></i></a> -->
+                        <a href="https://www.github.com/abara15" target="_blank"><i data-feather="github"></i></a>
+                    </li>
+                </ul>
+            </div>
         </header>
-        <!-- <section class="mobile-nav">
-            <nav class="secondary-nav">
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                </ul>
-            </nav>
-        </section> -->
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Nav bar overlaps in-page anchor. need to fix this -->
-        <section class="main" id="main">
-            <div class="main-container">
+        <section id="main">
+            <div class="main container flex flex-row">
+                <div class="main-item">
+                    <h3>Hey! My name is</h3>
+                    <h1>Anthony Barakat</h1>
+                    <h2>I'm currently working as a <span class="main-highlight">Software Engineer</span> @ <a href="https://www.erm.com/" target="_blank">ERM Australia</a> and I'm a 3rd year Software Engineering undergraduate @ <a href="https://www.unsw.edu.au/" target="_blank">UNSW</a>.</h2>
+                    <div class="my-button">
+                        <a href="#projects" class="flex flex-row align-center flex-center">
+                            <span>Projects</span>
+                            <i data-feather="code"></i></a>
+                    </div>
+                </div>
                 <div class="main-item">
                     <div id="image"></div>
                 </div>
-                <div class="main-item">
-                    <h1>Hey, I'm Anthony Barakat &#128075;.</h1>
-                    <h2>I am a <span class="lightblue">Software Engineer</span> based in Sydney, Australia.</h2>
-                    <h2>self-taught <span class="lightblue">web developer</span></h2>
-                    <h2>Currently, I'm a third year Software Engineering student at the University of New South Wales. I also work as a Software Engineer at <a href="https://www.erm.com/" target="_blank">ERM Australia</a>.</h2>
-                    <div class="main-button">
-                        <a href="#projects">Check out my work</a>
-                    </div>
-                </div>
             </div>
         </section>
-        <section class="projects" id="projects"></section>
-        <section class="about" id="about"></section>
-        <section class="contact" id="contact"></section>
+        
+        <!-- Projects -->
+        <!-- <section class="projects" id="projects">
+            <div class="container">
+                <div class="flex flex-row flex-left">
+                    <p class="section-title">Projects</p>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- About -->
+        <!-- <section class="about" id="about">
+            <div class="container">
+                <div class="flex flex-row flex-right">
+                    <p class="section-title">About Me</p>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Contact -->
+        <!-- <section class="contact" id="contact">
+            <div class="container">
+                <div class="flex flex-row flex-left">
+                    <p class="section-title">Contact Me</p>
+                </div>
+            </div>
+        </section> -->
 
         <!-- Footer -->
-        <div id="footer">
-            <div class="footer-container">
-                <div class="footer-item">
-                    <ul>
+        <div id="contact">
+            <!-- <div class="contact-container flex flex-row"> -->
+            <div class="container flex flex-column">
+                <div class="form contact-item">
+                    <form action="/action_page.php">
+                        <input type="text" id="name" name="name" placeholder="Name"><br>
+                        <input type="email" id="email" name="email" placeholder="Email"><br><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Submit">
+                    </form> 
+                </div>
+                <div class="contact-item">
+                    <ul class="flex flex-row">
                         <li><a href="https://www.github.com/abara15" target="_blank"><i class="fab fa-github"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/anthony-barakat-149252176/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="https://www.twitter.com/abara1026" target="_blank"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="https://codepen.io/abara15" target="_blank"><i class="fab fa-codepen"></i></a></li>
                     </ul>
                 </div>
-                <div class="footer-item">
+                <div class="contact-item">
                     <span>© 2021 Anthony Barakat</span>
                 </div>
             </div>
@@ -81,7 +176,9 @@
 
 
 
-
+        <script>
+            feather.replace()
+        </script>
         <script src="/js/script.js"></script>
     </body>
 </html>

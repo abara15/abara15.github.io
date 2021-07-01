@@ -3,12 +3,13 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     console.log(document.body.scrollTop);
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("header").style.backgroundColor = "#16161D";
+    if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        document.getElementById("header").style.backgroundColor = "#111";
         document.getElementById("header").style.paddingTop = "10px";
         document.getElementById("header").style.paddingBottom = "10px";
     } else {
-        document.getElementById("header").style.backgroundColor = "#0B0C10";
+        document.getElementById("header").style.backgroundColor = "transparent";
+        // document.getElementById("header").style.backgroundColor = "#010014";
         document.getElementById("header").style.paddingTop = "40px";
         document.getElementById("header").style.paddingBottom = "40px";
     }
