@@ -9,7 +9,6 @@ function scrollFunction() {
         document.getElementById("header").style.paddingBottom = "10px";
     } else {
         document.getElementById("header").style.backgroundColor = "transparent";
-        // document.getElementById("header").style.backgroundColor = "#010014";
         document.getElementById("header").style.paddingTop = "40px";
         document.getElementById("header").style.paddingBottom = "40px";
     }
