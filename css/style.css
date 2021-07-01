@@ -207,7 +207,7 @@ header {
 .main-item h3 {
     font-family: 'Assistant', sans-serif;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 5rem;
 }
 .main-highlight {
@@ -298,8 +298,16 @@ header {
     background: #111;
     padding: 40px 0;
 }
+.links-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
 .container .contact-item {
     /* margin-top: 120px; */
+    font-family: 'Assistant', sans-serif;
     padding: 15px;
 }
 .container .contact-item ul {
@@ -314,8 +322,8 @@ header {
     padding: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    /* font-size: 1.25rem; */
+    /* line-height: 1.75rem; */
     color: white;
 }
 .container .contact-item ul li a:hover {
@@ -324,6 +332,7 @@ header {
 }
 .form input,
 .form textarea {
+    font-size: 1rem;
     padding: 15px;
     margin: 10px;
     background: transparent;
@@ -333,5 +342,22 @@ header {
 }
 .form textarea {
     resize: vertical;
+}
+.form input[type=submit] {
+    width: max-content;
+    background-color: #ff2a6d;
+    font-weight: 700;
+}
+.form input[type=submit]:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #66FCF1;
+    border: 2px solid #66FCF1;
+    color: #111;
+}
+.form input:focus,
+.form textarea:focus {
+    transition: 0.5s;
+    border: 2px solid #66FCF1;
 }
 /* END: Contact/Footer */

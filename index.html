@@ -106,7 +106,7 @@
                 <div class="main-item">
                     <h3>Hey! My name is</h3>
                     <h1>Anthony Barakat</h1>
-                    <h2>I'm currently working as a <span class="main-highlight">Software Engineer</span> @ <a href="https://www.erm.com/" target="_blank">ERM Australia</a> and I'm a 3rd year Software Engineering undergraduate @ <a href="https://www.unsw.edu.au/" target="_blank">UNSW</a>.</h2>
+                    <h2>I'm working as a <span class="main-highlight">Software Engineer</span> @ <a href="https://www.erm.com/" target="_blank">ERM Australia</a> and I'm a 3rd year Software Engineering undergraduate @ <a href="https://www.unsw.edu.au/" target="_blank">UNSW</a>.</h2>
                     <div class="my-button">
                         <a href="#projects" class="flex flex-row align-center flex-center">
                             <span>Projects</span>
@@ -150,20 +150,28 @@
         <div id="contact">
             <!-- <div class="contact-container flex flex-row"> -->
             <div class="container flex flex-column">
-                <div class="form contact-item">
-                    <form action="/action_page.php">
-                        <input type="text" id="name" name="name" placeholder="Name"><br>
-                        <input type="email" id="email" name="email" placeholder="Email"><br><br>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <div class="contact-item">
+                    <form action="/action_page.php" class="form flex flex-column">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                         <input type="submit" value="Submit">
                     </form> 
                 </div>
                 <div class="contact-item">
-                    <ul class="flex flex-row">
-                        <li><a href="https://www.github.com/abara15" target="_blank"><i class="fab fa-github"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/anthony-barakat-149252176/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="https://www.twitter.com/abara1026" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="https://codepen.io/abara15" target="_blank"><i class="fab fa-codepen"></i></a></li>
+                    <ul class="links-container flex flex-row space-around align-center">
+                        <li>
+                            <a href="https://www.github.com/abara15" target="_blank"><i data-feather="github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/anthony-barakat-149252176/" target="_blank"><i data-feather="linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/abara1026" target="_blank"><i data-feather="twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/abara15" target="_blank"><i data-feather="codepen"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="contact-item">
