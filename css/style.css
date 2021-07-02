@@ -53,7 +53,25 @@ body {
 .align-center {
     align-items: center;
 }
+.wrap {
+    flex-wrap: wrap;
+}
+.no-wrap {
+    flex-wrap: nowrap;
+}
 /* END: Flexbox classes */
+
+/* START: Fonts */
+.title {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 3rem;
+    color: white;
+    box-shadow: 0px 4px 0px 0px #ff2a6d;
+}
+/* END: Fonts */
 
 /* START: Button */
 .my-button {
@@ -79,6 +97,10 @@ body {
 
 /* START: Container */
 .container {
+    /* flex-grow:1;
+    margin:0 auto;
+    position:relative;
+    max-width:960px; */
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -87,6 +109,9 @@ body {
 }
 .width-30 {
     width: 30%;
+}
+.width-50 {
+    width: 50%;
 }
 .width-70 {
     width: 70%;
@@ -109,8 +134,14 @@ header {
 .navigation ul {
     list-style: none;
 }
-.navigation ul li a {
-    padding: 20px;
+.logo-nav {
+    width: 60px;
+    height: 40px;
+    margin-top: -5px;
+}
+.logo-nav:hover {
+    transition: 0.25s;
+    opacity: 0.6;
 }
 .logo,
 .menu-button,
@@ -173,12 +204,12 @@ header {
 
 /* START: Main */
 #main {
-    height: 75vh;
+    height: 70vh;
 }
 .main {
     justify-content: space-around;
     padding: 10px 40px;
-    margin-top: 27vh;
+    margin-top: 30vh;
     user-select: none;
 }
 .main .main-item {
@@ -247,32 +278,40 @@ header {
 }
 /* END: Main */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* START: Projects */
 #projects {
-    height: 500px;
+    height: 75vh;
+    background: #111;
+    padding-top: 5vh;
     /* border: 1px solid white; */
 }
+/* END: Projects */
+
+/* START: About */
 #about {
-    height: 500px;
-    /* border: 1px solid green; */
+    height: 75vh;
+    background: #111;
+    padding-top: 5vh;
+    /* border: 1px solid white; */
 }
+.skill-item {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #1D2728;
+    border-radius: 5px;
+    border-bottom: 3px solid #ff2a6d;
+}
+.skill-text {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.skill-percentage {
+    color: #ff2a6d;
+    font-weight: bold;
+}
+/* END: About */
 
 
 
@@ -325,15 +364,16 @@ header {
 }
 .container .contact-item ul li a {
     padding: 1rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    /* font-size: 1.25rem; */
-    /* line-height: 1.75rem; */
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    font-size: 1.25rem;
+    line-height: 5rem;
     color: white;
+    vertical-align: middle;
 }
 .container .contact-item ul li a:hover {
-    background: #ff2a6d;
-    color: #111;
+    color: #ff2a6d;
+    box-shadow: 0px 4px 0px 0px #ff2a6d;
 }
 .form input,
 .form textarea {
