@@ -71,7 +71,23 @@ body {
     color: white;
     box-shadow: 0px 4px 0px 0px #ff2a6d;
 }
+.general-text {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    color: white;
+}
 /* END: Fonts */
+
+.link {
+    color: #66FCF1;
+}
+.link:hover {
+    transition: 0.5s;
+    color: #ff2a6d;
+    box-shadow: 0px 3px 0px 0px #ff2a6d;
+}
 
 /* START: Button */
 .my-button {
@@ -83,12 +99,12 @@ body {
     padding: 15px;
     font-weight: 700;
     color: white;
-    transition: 0.2s;
+    transition: 0.5s;
     text-align: center;
 }
 .my-button a:hover {
-    background: #1F2823;
-    color: white;
+    background: #66FCF1;
+    color: #111;
 }
 .my-button a span {
     margin-right: 10px;
@@ -141,7 +157,7 @@ header {
 }
 .logo-nav:hover {
     transition: 0.25s;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .logo,
 .menu-button,
@@ -231,14 +247,6 @@ header {
     margin: 30px 0 30px;
     /* margin-bottom: 1.5rem; */
 }
-.main-item h2 a {
-    color: #66FCF1;
-}
-.main-item h2 a:hover {
-    transition: 0.5s;
-    color: #ff2a6d;
-    box-shadow: 0px 3px 0px 0px #ff2a6d;
-}
 .main-item h3 {
     font-family: 'Assistant', sans-serif;
     font-size: 1.5rem;
@@ -262,10 +270,11 @@ header {
     border-radius: 25px;
     transition: 0.5s ease-in-out;
     text-align: center;
+    /* filter: grayscale(100); */
 }
 #image:hover {
     transform: scale(1.1);
-    filter: grayscale(100) blur(1px);
+    filter: sepia(100%) hue-rotate(341deg) saturate(58%);
 }
 @media only screen and (max-width: 600px) {
     #main {
@@ -289,8 +298,8 @@ header {
 
 /* START: About */
 #about {
-    height: 75vh;
-    background: #111;
+    height: 70vh;
+    background: #2A242B;
     padding-top: 5vh;
     /* border: 1px solid white; */
 }
@@ -298,7 +307,7 @@ header {
     width: 60%;
     padding: 10px;
     margin-bottom: 20px;
-    background: #1D2728;
+    background: #111111;
     border-radius: 5px;
     border-bottom: 3px solid #ff2a6d;
 }
@@ -372,6 +381,7 @@ header {
     vertical-align: middle;
 }
 .container .contact-item ul li a:hover {
+    transition: 0.25s;
     color: #ff2a6d;
     box-shadow: 0px 4px 0px 0px #ff2a6d;
 }
