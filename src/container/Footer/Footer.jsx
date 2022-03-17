@@ -117,11 +117,11 @@ const Footer = () => {
                 <motion.a
                     whileInView={{ opacity: [0, 1] }}
                     transition={{ duration: 0.5 }}
-                    href="mailto:info@abara.dev"
+                    href="mailto:abarakat15@outlook.com"
                     className="app__footer-card"
                 >
                     <img src={images.email} alt="email" />
-                    <p className="p-text">info@abara.dev</p>
+                    <p className="p-text">abarakat15@outlook.com</p>
                 </motion.a>
                 <motion.a
                     whileInView={{ opacity: [0, 1] }}
