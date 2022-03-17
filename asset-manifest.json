@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c542bab.css",
-    "main.js": "/static/js/main.8197d01d.js",
+    "main.css": "/static/css/main.80031c1a.css",
+    "main.js": "/static/js/main.9bdc9660.js",
     "static/js/787.63073e3d.chunk.js": "/static/js/787.63073e3d.chunk.js",
     "static/media/proj2048.png": "/static/media/proj2048.0fe62fb096cc8725484e.png",
     "static/media/projPortfolio.png": "/static/media/projPortfolio.45dacad4e6ef09868b06.png",
@@ -13,7 +13,6 @@
     "static/media/projChatBot.png": "/static/media/projChatBot.419c50c329b12d3b2bcd.png",
     "static/media/Avatar.png": "/static/media/Avatar.309a017b21108fcfc271.png",
     "static/media/projWeatherMetrics.png": "/static/media/projWeatherMetrics.2537ceb73d6d0413e847.png",
-    "static/media/logo.png": "/static/media/logo.a7d1cd5d12077149fd28.png",
     "static/media/CSS3.png": "/static/media/CSS3.9407ad358cdb22b8b1f0.png",
     "static/media/Office365.png": "/static/media/Office365.0c830c963c028e0d598a.png",
     "static/media/projDefault.png": "/static/media/projDefault.1a195b60ed7b99b7f1f2.png",
@@ -26,12 +25,12 @@
     "static/media/MySQL.png": "/static/media/MySQL.17ec01314179e9a8ab58.png",
     "static/media/Firebase.png": "/static/media/Firebase.a4156cb67d6d0676cffc.png",
     "index.html": "/index.html",
-    "main.0c542bab.css.map": "/static/css/main.0c542bab.css.map",
-    "main.8197d01d.js.map": "/static/js/main.8197d01d.js.map",
+    "main.80031c1a.css.map": "/static/css/main.80031c1a.css.map",
+    "main.9bdc9660.js.map": "/static/js/main.9bdc9660.js.map",
     "787.63073e3d.chunk.js.map": "/static/js/787.63073e3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c542bab.css",
-    "static/js/main.8197d01d.js"
+    "static/css/main.80031c1a.css",
+    "static/js/main.9bdc9660.js"
   ]
 }
