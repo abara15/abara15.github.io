@@ -151,6 +151,18 @@ html {
     color: var(--white-color);
     text-align: left;
     line-height: 2;
+
+    a {
+        text-decoration: none;
+        color: var(--primary-color);
+        transition: all 0.3s ease-in-out;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+            color: var(--secondary-color);
+        }
+    }
   
     @media screen and (min-width: 2000px) {
         font-size: 2rem;

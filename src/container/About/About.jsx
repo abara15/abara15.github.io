@@ -28,7 +28,7 @@ const About = () => {
                         whileInView={{ opacity: [0, 1] }}
                         transition={{ duration: 0.5 }}
                     >
-                        <p className="content-text">Hi, my name is Anthony! I am 21yo and am a Software Engineer based in Sydney, AU. I'm currently studying Software Engineering @ the University of New South Wales, and I work as a Software Engineer @ ERM Australia.</p>
+                        <p className="content-text">Hi, my name is Anthony! I am 21yo and am a Software Engineer based in Sydney, AU. I'm currently studying Software Engineering @ the <a href="https://www.unsw.edu.au/" target="_blank" rel="noreferrer">University of New South Wales</a>, and I work as a Software Engineer @ <a href="https://www.erm.com/" target="_blank" rel="noreferrer">ERM Australia</a>.</p>
                     </motion.div>
                     <motion.div
                         whileInView={{ opacity: [0, 1] }}
@@ -40,7 +40,7 @@ const About = () => {
                         whileInView={{ opacity: [0, 1] }}
                         transition={{ duration: 0.5 }}
                     >
-                        <p className="content-text">Outside of the world of coding, I'm interested in sports, food, reading, history, film, and music!</p>
+                        <p className="content-text">Outside of the world of coding, I'm interested in sports, food, reading, history, movies, and music!</p>
                     </motion.div>
                     <motion.div
                         whileInView={{ opacity: [0, 1] }}
