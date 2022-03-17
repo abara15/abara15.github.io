@@ -1,0 +1,14 @@
+.section-divider-main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+
+    .divider {
+        height: 2px;
+        width: 80%;
+        background: blue;
+        background: linear-gradient(90deg, hsl(0, 0%, 20%), hsl(0, 0%, 70%), hsl(0, 0%, 20%));
+    }
+}
