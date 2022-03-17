@@ -110,7 +110,7 @@ export const projects = [
     {
         category: "Web",
         name: "2048",
-        description: "2048 is a clone I made of the popular 2048 game. I built this in a React.js environment and deployed it on Netlify.",
+        description: "This is a clone I made of the popular 2048 game. I built this in a React.js environment and deployed it on Netlify.",
         chips: ["React.js", "Netlify", "Web"],
         repository: "https://github.com/abara15/2048",
         link: "https://2048-abara15.netlify.app/",
@@ -119,7 +119,7 @@ export const projects = [
     {
         category: "Other",
         name: "Castle Defence",
-        description: "Castle Defence is a CLI game written in C simulating an imaginary Realm under attack. Lands are created in the Realm and Towers built to defend a Castle, with Enemies passing through Lands trying to damage the Castle.",
+        description: "This C program simulates an imaginary Realm under attack. It involved creating Lands in the Realm and building Towers to defend a Castle, as well as managing Enemy movement as they pass through the Lands and the use of Towers against the Enemies and any damage the Castle receives.",
         chips: ["C", "Game", "CLI", "Other"],
         repository: "https://github.com/abara15/castle-defense",
         // link: "https://{URL}",
@@ -128,7 +128,7 @@ export const projects = [
     {
         category: "iOS",
         name: "chatBot",
-        description: "chatBot is a real-time iOS messaging app I developed for my HSC Major Work. This app is powered by a Firebase back-end and allows users to log in and send photos and texts to their friends!",
+        description: "This is a real-time iOS messaging app I developed for my HSC Major Work. This app is powered by a Firebase back-end and allows users to log in and send photos and texts to their friends!",
         chips: ["Swift", "Firebase", "iOS"],
         repository: "https://github.com/abara15/chatbot",
         // link: "https://{URL}",
@@ -137,7 +137,7 @@ export const projects = [
     {
         category: "Other",
         name: "Cowrie",
-        description: "Cowrie is a simple shell written in C. This shell implements a small subset of the core functionality typical of a Unix/Linux shell.",
+        description: "This is a simple shell written in C implementing a small subset of the core functionality typical of a Unix/Linux shell.",
         chips: ["C", "Shell", "CLI", "Other"],
         repository: "https://github.com/abara15/cowrie",
         // link: "https://{URL}",
@@ -155,7 +155,7 @@ export const projects = [
     {
         category: "Other",
         name: "Girt",
-        description: "Girt is a Shell program I wrote that implements a subset of the commands from the version control system, Git.",
+        description: "This Shell program implements a subset of the commands from the version control system, Git.",
         chips: ["Shell", "Git", "CLI", "Other"],
         repository: "https://github.com/abara15/girt",
         // link: "https://{URL}",
@@ -164,7 +164,7 @@ export const projects = [
     {
         category: "Other",
         name: "Information Retrieval",
-        description: "Information Retrieval is a information retrieval system written in C. It gives information on documents including relative term frequency adjusted for document length, inverse document frequency, and tf-idf.",
+        description: "This information retrieval system written in C gives information on documents including relative term frequency adjusted for document length, inverse document frequency, and tf-idf.",
         chips: ["C", "tf-idf", "CLI", "Other"],
         repository: "https://github.com/abara15/information-retrieval",
         // link: "https://{URL}",
@@ -182,7 +182,7 @@ export const projects = [
     {
         category: "Other",
         name: "Simple Search Engine",
-        description: "Simple Search Engine is a C program built to search using the Weighted PageRank algorithm. Using a collection of 'web pages', I built a graph structure and calculated Weighted PageRanks, ranking pages based on these values.",
+        description: "This C program built to search a collection of 'web pages' using the Weighted PageRank algorithm. I built a graph structure and calculated Weighted PageRanks, ranking pages based on these values.",
         chips: ["C", "PageRank", "CLI", "Other"],
         repository: "https://github.com/abara15/simple-search-engine",
         // link: "https://{URL}",
@@ -191,7 +191,7 @@ export const projects = [
     {
         category: "Python",
         name: "slackr",
-        description: "slackr is a Slack-like platform that we made as part of a uni group project. With a pre-built front-end, we were tasked with writing functions in the Python back-end dealing with authentication, search, messaging, channels, and users.",
+        description: "This is a Slack-like platform made as part of a uni group project. Using a pre-built front-end, we wrote functions in the Python back-end dealing with authentication, search, messaging, channels, and users.",
         chips: ["Python", "React.js", "Web"],
         repository: "https://github.com/abara15/slackr",
         // link: "https://{URL}",
@@ -200,7 +200,7 @@ export const projects = [
     {
         category: "Web",
         name: "Weather Metrics",
-        description: "Weather Metrics is a Flask Web App I built as a group uni project. Using the AccuWeather API, relevant weather data is pulled and displayed to the user on a HTML template.",
+        description: "This is a Flask Web App built as a group uni project. Using the AccuWeather API, relevant weather data is pulled and displayed to the user on a HTML template.",
         chips: ["Python", "Flask", "JS", "API", "Web"],
         repository: "https://github.com/abara15/weathermetrics",
         // link: "https://{URL}",
