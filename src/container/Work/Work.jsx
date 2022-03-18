@@ -7,23 +7,19 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Work = () => {
     const works = projects;
-    const [filterWork, setFilterWork] = useState(projects);
-    const [activeFilter, setActiveFilter] = useState('All');
+    const [filterWork, setFilterWork] = useState(works.filter((work) => work.category === 'Web'));
+    const [activeFilter, setActiveFilter] = useState('Web');
     const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+    const [animateButton, setAnimateButton] = useState({ y: 0, opacity: 1 });
 
     const handleWorkFilter = (item) => {
         setActiveFilter(item);
-        setAnimateCard([{ y: 100, opacity: 0 }]);
+        setAnimateCard([{ y: 50, opacity: 0 }]);
     
         setTimeout(() => {
             setAnimateCard([{ y: 0, opacity: 1 }]);
-        
-            if (item === 'All') {
-                setFilterWork(works);
-            } else {
-                setFilterWork(works.filter((work) => work.chips.includes(item)));
-                // setFilterWork(works.filter((work) => work.category === item));
-            }
+            setAnimateButton([{ y: 0, opacity: 1 }]);
+            setFilterWork(works.filter((work) => work.category === item));
         }, 500);
     };
 
@@ -35,7 +31,7 @@ const Work = () => {
                 transition={{ duration: 0.5 }}
                 className="app__work-filter"
             >
-                {['All', 'Web', 'Python', 'iOS', 'Other'].map((item, index) => (
+                {['Web', 'Python', 'iOS', 'CLI'].map((item, index) => (
                 <div
                     key={index}
                     onClick={() => handleWorkFilter(item)}
@@ -92,6 +88,20 @@ const Work = () => {
                     </div>
                 </motion.div>
                 ))}
+            </motion.div>
+
+            <motion.div
+                animate={animateButton}
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 0.5 }}
+                className="app__work-github-btn"
+            >
+                <a href="https://github.com/abara15?tab=repositories" target="_blank" rel="noreferrer" className="p-text">
+                    <div>
+                        <FaGithub />
+                    </div>
+                    <span>See More</span>
+                </a>
             </motion.div>
         </>
     );
