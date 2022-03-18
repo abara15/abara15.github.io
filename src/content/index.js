@@ -101,7 +101,7 @@ export const experiences = [
     {
         icon: <MdOutlineWork />,
         year: "2018 - 19",
-        title: "Network Systems Engineer (Intern)",
+        title: "Service Desk Engineer (Intern)",
         institution: "Nexon Asia Pacific"
     }
 ]
