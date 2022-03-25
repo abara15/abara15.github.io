@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Hamburger from 'hamburger-react';
 import { FaGithub, FaTwitter, FaLinkedin, FaDev } from "react-icons/fa";
-import { images, ScrollToTop } from "../../constants/";
+import { ScrollToTop } from "../../constants/";
 import { SVGLogo } from "..";
 import './Navbar.scss';
 
