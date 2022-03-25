@@ -38,9 +38,17 @@
         cursor: pointer;
         width: 50px;
 
-        img {
+        svg {
             width: 100%;
             height: auto;
+            
+            path {
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    fill: var(--secondary-color) !important;
+                }
+            }
     
             @media screen and (min-width: 2000px) {
                 width: 180px;

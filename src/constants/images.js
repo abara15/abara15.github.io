@@ -9,7 +9,6 @@ import firebase from "../assets/Firebase.png";
 import git from "../assets/Git.png";
 import html5 from "../assets/HTML5.png";
 import javascript from "../assets/JavaScript.png";
-import icon_logo from "../assets/icon_logo.png";
 import mysql from "../assets/MySQL.png";
 import nodejs from "../assets/NodeJS.png";
 import office365 from "../assets/Office365.png";
@@ -42,7 +41,6 @@ const images = {
     git,
     html5,
     javascript,
-    icon_logo,
     mysql,
     nodejs,
     office365,

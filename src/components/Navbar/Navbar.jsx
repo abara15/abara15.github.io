@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Hamburger from 'hamburger-react';
 import { FaGithub, FaTwitter, FaLinkedin, FaDev } from "react-icons/fa";
 import { images, ScrollToTop } from "../../constants/";
+import { SVGLogo } from "..";
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -37,7 +38,7 @@ const Navbar = () => {
             <div className="app__navbar-row">
                 <div className="app__navbar-logo">
                     <button onClick={ScrollToTop}>
-                        <img src={images.icon_logo} alt="logo" />
+                        <SVGLogo />
                     </button>
                 </div>
                 <ul className="app__navbar-links">
