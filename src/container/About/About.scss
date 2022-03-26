@@ -22,6 +22,7 @@
         margin-right: 5rem;
         
         .app__flex {
+
             img {
                 height: auto;
                 width: 100%;
@@ -47,7 +48,7 @@
 
         .app__about-info-btn {
             // text-align: center;
-            button {
+            a {
                 padding: 1rem 2rem;
                 border-radius: 10px;
                 border: none;
@@ -63,6 +64,9 @@
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                width: 120px;
+                text-decoration: none;
+                font-weight: bold;
 
                 div {
                     color: var(--white-color);

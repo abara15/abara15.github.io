@@ -2,14 +2,10 @@ import React from "react";
 import { motion } from 'framer-motion';
 import { BsDownload } from "react-icons/bs";
 import { AppWrap, MotionWrap } from "../../wrapper";
-import { images } from "../../constants";
+import { images, resumePDF } from "../../constants";
 import './About.scss';
 
 const About = () => {
-    const saveFile = () => {
-        alert("Coming Soon!");
-    }
-
     return (
         <>
             <h2 className="head-text">A little bit <span style={{ color: "#6b17ff" }}>about me</span></h2>
@@ -47,12 +43,12 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                         className="app__about-info-btn"
                     >
-                        <button type="button" onClick={saveFile} className="p-text">
+                        <a href={resumePDF} target="_blank" rel="noreferrer" className="p-text">
                             <div>
                                 <BsDownload />
                             </div>
                             <span>CV</span>
-                        </button>
+                        </a>
                     </motion.div>
                 </motion.div>
             </div>
