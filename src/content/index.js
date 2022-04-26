@@ -108,6 +108,15 @@ export const experiences = [
 
 export const projects = [
     {
+        category: "Python",
+        name: "Article API",
+        description: "A simple Article API in Python for a technical test. This takes in endpoints which store articles in the service, retrieve articles from the service, and return summary information on tags.",
+        chips: ["Python", "Flask", "API", "MongoDB"],
+        repository: "https://github.com/abara15/ArticleAPI-python",
+        // link: "https://{URL}",
+        imgUrl: `${images.projDefault}`
+    },
+    {
         category: "Web",
         name: "2048",
         description: "This is a clone I made of the popular 2048 game. I built this in a React.js environment and deployed it on Netlify.",
