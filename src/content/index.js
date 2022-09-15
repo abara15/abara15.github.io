@@ -88,7 +88,13 @@ export const skills = [
 export const experiences = [
     {
         icon: <MdOutlineWork />,
-        year: "2021 - Present",
+        year: "Aug '21 - Present",
+        title: "Development Operations Engineer",
+        institution: "Environmental Resources Management Inc."
+    },
+    {
+        icon: <MdOutlineWork />,
+        year: "Jul '21 - Aug '21",
         title: "Software Engineer",
         institution: "Environmental Resources Management Inc."
     },
@@ -100,7 +106,7 @@ export const experiences = [
     },
     {
         icon: <MdOutlineWork />,
-        year: "2018 - 19",
+        year: "Nov '18 - Feb '19",
         title: "Service Desk Engineer (Intern)",
         institution: "Nexon Asia Pacific"
     }
