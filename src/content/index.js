@@ -88,13 +88,13 @@ export const skills = [
 export const experiences = [
     {
         icon: <MdOutlineWork />,
-        year: "Aug '21 - Present",
+        year: "Aug '22 - Present",
         title: "Development Operations Engineer",
         institution: "Environmental Resources Management Inc."
     },
     {
         icon: <MdOutlineWork />,
-        year: "Jul '21 - Aug '21",
+        year: "Jul '21 - Aug '22",
         title: "Software Engineer",
         institution: "Environmental Resources Management Inc."
     },
