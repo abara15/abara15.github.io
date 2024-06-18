@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedin, FaDev } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import './SocialMedia.scss';
 
 const SocialMedia = () => {
@@ -8,11 +8,6 @@ const SocialMedia = () => {
             <a href="https://github.com/abara15" target="_blank" rel="noreferrer">
                 <div>
                     <FaGithub />
-                </div>
-            </a>
-            <a href="https://dev.to/abara15/" target="_blank" rel="noreferrer">
-                <div>
-                    <FaDev />
                 </div>
             </a>
             <a href="https://au.linkedin.com/in/anthony-barakat" target="_blank" rel="noreferrer">
