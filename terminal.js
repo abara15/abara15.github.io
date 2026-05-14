@@ -5,7 +5,7 @@
   var lines = [
     { type: "cmd",  prompt: "anthony@portfolio:~$", text: " ./launch-portfolio.sh" },
     { type: "out",  text: "Initialising environment...",              color: "" },
-    { type: "out",  text: "Loading modules: [azure] [devops] [iac]",  color: "" },
+    { type: "out",  text: "Loading modules: [about] [exp] [skill] [proj] [edu] [cert]",  color: "" },
     { type: "out",  text: "✔ Identity verified",                  color: "green" },
     { type: "out",  text: "✔ Credentials authenticated",          color: "green" },
     { type: "out",  text: "✔ Infrastructure provisioned",         color: "green" },
